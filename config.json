@@ -1,0 +1,30 @@
+{
+  "snowflake": {
+    "account": "your-account.snowflakecomputing.com",
+    "username": "your-username",
+    "password": "***",
+    "warehouse": "COMPUTE_WH",
+    "database": null,
+    "schema": null,
+    "role": null,
+    "timeout": 300
+  },
+  "datahub": {
+    "server_url": "http://localhost:8080",
+    "token": null,
+    "timeout": 30,
+    "max_retries": 3,
+    "batch_size": 100
+  },
+  "platform": "snowflake",
+  "extract_structural_metadata": true,
+  "extract_access_control": true,
+  "include_databases": null,
+  "exclude_databases": ["INFORMATION_SCHEMA", "PERFORMANCE_SCHEMA"],
+  "include_schemas": null,
+  "exclude_schemas": ["INFORMATION_SCHEMA"],
+  "include_tables": null,
+  "exclude_tables": null,
+  "log_level": "INFO",
+  "log_format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+}
